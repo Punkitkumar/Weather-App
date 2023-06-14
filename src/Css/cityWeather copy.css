@@ -1,0 +1,61 @@
+.current-day {
+  width: 70%;
+  box-shadow: 50px;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+
+}
+.city-name-today-high-low {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 10px;
+}
+h1.city-name{
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 10px 0 10px 0  !important;
+}
+.arrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.up-arrow{
+    margin-left: 10px;
+}
+.up-arrow-degree{
+    margin-right: 10px;
+}
+ .day-date-description{
+    width: 30%;
+    /* padding-left: 5px; */
+} 
+.day-date-sky{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.up-margin0 h2 ,h3 ,h4 {
+    margin: 5px 0 5px 0 !important;
+} 
+h2.up-marging0 {
+    margin-bottom: 0;
+}
+img {
+    width: 200px;
+    height: auto;
+}
+.weather-cloud h1{
+    margin-top: 0;
+    text-align: center;
+}
+.today-degree{
+    font-size: 500%;
+}

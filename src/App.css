@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+body {
+  background-image: url(../src//Images/backgroundImage.jpg);
+  width: 100vw;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Center-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  padding-bottom: 10rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Weather-report-box {
+  background-color: rgb(22, 140, 173);
+  width: 75%;
+  height: auto;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px 10px 0 10px;
+  border-radius: 20px;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.input-text {
+  height: 2rem;
+  width: 15rem;
+  border-radius: 25px;
+  border: 1px;
+  border-width: 1px;
+  font-weight: 500;
+  font-size: 1.2rem;
+  box-shadow: 2px 2px #888888;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  font-size: 1.2rem;
+  border-radius: 50px;
+  height: 2rem;
+  width: 7rem;
+  font-weight: 500;
+  background-color: rgb(89, 89, 234);
+  border: 0;
+  cursor: pointer;
+  margin-left: 1rem;
+  box-shadow: 2px 2px  rgb(89, 89, 234);
 }
